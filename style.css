@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 12px;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #641b20;
+}
+
+.div1{
+    background-color: #641b20;
+    border-radius: 4px;
+}
+
+h2{
+    color: rgb(209, 216, 115);
+}
+
+#p1{
+    color:rgb(255, 220, 220);
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form{
+    border: 3px solid rgb(119, 36, 42);
+    border-radius: 12px;
+    margin: auto;
+    /* background-color: rgb(233, 245, 168); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    width: 80%;
+    padding: 24px;
+    padding-bottom: 38px;
+}
+
+input, textarea{
+    width: 80%;
+    margin: 8px;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: medium;
+    border: 2px solid rgb(100, 27, 32);
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255 196 207 / 45%);
+}
+
+select{
+    border: 2px solid rgb(100, 27, 32);
+    border-radius: 5px;
+    outline: none;
+    width: 53%;
+    margin: 8px;
+    padding: 8px;
+    font-size: medium;
+    color: rgb(63, 58, 58);
+    background-color: rgb(255 196 207 / 45%);
+    font-family: sans-serif;
+}
+
+#div2{
+    width: 80%;
+}
+
+#btn{
+    font-size: large;
+    color: black;
+    background-color: #eb7c81;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: #92141c;
+    padding: 6px;
+    font-family: sans-serif;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: #ffdcdc
+}
+
+input::placeholder { /* Firefox, Chrome, Opera */
+    color: rgb(63, 58, 58);
+}
+
+textarea:hover{
+    cursor: pointer;
+    background-color: #ffdcdc
+}
+
+select:hover{
+    cursor: pointer;
+    background-color: #ffdcdc
+}
+
+img{
+    width: 100vw;
+    height: 130vh;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.75;
+}
+
+label{
+    color: #333131;
+    font-weight: 600;
+}
+
+#btn:hover{
+    cursor: pointer;
+    /* background-color: rgb(252, 160, 76); */
+    background-color: #afc5b4;
+}
+
+.p2 {
+    font-weight: bolder;
+    text-align: center;
+    color: green;
+    font-size: x-large;
+    background-color: #ffeeee;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
